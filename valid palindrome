@@ -8,7 +8,7 @@ class Solution
         {
             if(Character.isDigit(s.charAt(i)) || Character.isLetter(s.charAt(i)))
             {
-                b.append(s.charAt(i));
+                b.append(s.charAt(i)); 
             }
         }
         int n = b.length()-1;
