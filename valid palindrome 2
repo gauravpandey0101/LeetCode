@@ -1,6 +1,6 @@
 class Solution 
 {
-    public boolean validPalindrome(String s) 
+    public boolean validPalindrome(String s)  
     {    
         int counts=0,counte=0;
         int n = s.length()-1;
