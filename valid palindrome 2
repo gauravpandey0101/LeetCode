@@ -11,7 +11,7 @@ class Solution
                 i++;
                 n--;
             }
-            else 
+            else  
             {
                 i++;
                 counts++;
