@@ -12,7 +12,7 @@ class Solution
             }
         }
         int n = b.length()-1;
-        for(int i=0;i<b.length()/2;i++)
+        for(int i=0;i<b.length()/2;i++) 
         {
             if(b.charAt(i)!=b.charAt(n-i))
                 return false;
