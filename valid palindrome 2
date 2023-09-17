@@ -1,0 +1,40 @@
+class Solution {
+    public boolean validPalindrome(String s) 
+    {   
+        int counts=0,counte=0;
+        int n = s.length()-1;
+        for(int i=0; i<s.length()/2;i++)
+        {
+            if(s.charAt(i)==s.charAt(n))
+            {
+                i++;
+                n--;
+            }
+            else 
+            {
+                i++;
+                counts++;
+            }
+        }
+        n = s.length()-1;
+        
+        for(int i=0; i<s.length()/2;i++)
+        {
+            if(s.charAt(i)==s.charAt(n))
+            {
+                i++;
+                n--;
+            }
+            else 
+            {
+                n--;
+                counte++;
+            }
+        }
+        
+        if(counts == 0 || counte == 0) return true;
+        if(counts == 1 || counte == 1) return true;
+        
+    return false;
+    }
+}
