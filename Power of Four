@@ -4,7 +4,7 @@ class Solution {
         {
             double result = Math.pow(4,i);
             if(result == n)
-            {
+            { 
                 return true;
             }
         }
