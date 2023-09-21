@@ -1,5 +1,6 @@
 class Solution {
-  public int mySqrt(long x) {
+  public int mySqrt(long x) 
+{
     long l = 1; 
     long r = x + 1; 
 
