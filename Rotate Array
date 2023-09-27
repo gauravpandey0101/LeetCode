@@ -1,0 +1,35 @@
+class Solution 
+{
+    public void rotate(int[] nums, int k)
+    {
+        k = k % nums.length;
+        int n=nums.length;
+        
+        if( n == k)
+        {
+            for(int i=0;i<n;i++)
+            {
+               nums[i] = nums[i];
+            }
+        }
+        else
+        {
+        int num1[] = new int[n];
+        int l=0;
+        for(int i=n-k;i<n;i++)
+        {
+            num1[l]=nums[i];
+            l=l+1;
+        }
+        for(int j=0;j<n-k;j++)
+        {
+            num1[l]=nums[j];
+                l=l+1;
+        }
+        for(int j=0;j<n;j++)
+        {
+            nums[j]=num1[j];
+        }
+        }
+    }
+    }
