@@ -3,7 +3,7 @@ class Solution
     public void rotate(int[] nums, int k)
     {
         k = k % nums.length; 
-        int n=nums.length; 
+        int n=nums.length;  
          
         if( n == k) 
         {
