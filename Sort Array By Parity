@@ -1,5 +1,5 @@
 class Solution 
-{  
+{   
     public int[] sortArrayByParity(int[] nums) 
     { 
         int n = nums.length;
