@@ -1,5 +1,5 @@
 class Solution {
-    public int strStr(String haystack, String needle) 
+    public int strStr(String haystack, String needle)  
     {
         int flag = 0;
         int hlen = haystack.length();
