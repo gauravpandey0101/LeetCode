@@ -6,7 +6,7 @@ class Solution {
         int nlen = needle.length();
         int j=0;
         for(int i=0;i+nlen<=hlen;i++)
-        {
+        { 
         
             if(haystack.substring(i,i+nlen).equals(needle))
             {
