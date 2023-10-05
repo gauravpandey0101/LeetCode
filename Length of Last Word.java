@@ -1,5 +1,5 @@
 class Solution {
-    public int lengthOfLastWord(String s) {   
+    public int lengthOfLastWord(String s) {    
           int b = s.length();  
         int count1 =0;
         int count = 0;  
