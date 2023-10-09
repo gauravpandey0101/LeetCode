@@ -1,5 +1,5 @@
 class Solution { 
-    public List<List<Integer>> generate(int numRows) { 
+    public List<List<Integer>> generate(int numRows) {  
       List<List<Integer>> allrows = new ArrayList<List<Integer>>();   
 	ArrayList<Integer> row = new ArrayList<Integer>(); 
 	for(int i = 0; i < numRows; i ++)
