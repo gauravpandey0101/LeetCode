@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public List<List<Integer>> generate(int numRows) {
       List<List<Integer>> allrows = new ArrayList<List<Integer>>();
 	ArrayList<Integer> row = new ArrayList<Integer>();
