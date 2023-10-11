@@ -1,5 +1,5 @@
 class Solution {
-    public void moveZeroes(int[] nums) { 
+    public void moveZeroes(int[] nums) {  
     
         int left = 0;     
   
