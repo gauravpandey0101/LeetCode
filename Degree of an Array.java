@@ -4,7 +4,7 @@ class Solution {
         int start;
         int end;
         int degree;
-        
+         
         public Num(int num, int index) {
             this.num = num;
             this.start = index;
