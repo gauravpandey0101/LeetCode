@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     static class Num {
         int num;
         int start;
