@@ -3,7 +3,7 @@ class Solution {
         int num;
         int start;
         int end;
-        int degree;
+        int degree; 
          
         public Num(int num, int index) {
             this.num = num;
