@@ -1,5 +1,5 @@
 class Solution { 
-public int majorityElement(int[] nums) {   
+public int majorityElement(int[] nums) {    
 int ansIndex=0;
 int count=1;
 
