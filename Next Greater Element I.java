@@ -4,7 +4,7 @@
 			max=0;
 			flag=0;
 			for(int j=0;j<nums2.length;j++){
-				if(nums2[j]==nums1[i])
+				if(nums2[j]==nums1[i]) 
 					flag=1;
 				else if(flag==1 && nums2[j]>nums1[i]){
 					max=nums2[j];
