@@ -1,5 +1,5 @@
 	int[] resultArray = new int[nums1.length];
-		int flag=0, max;        
+		int flag=0, max;         
 		for(int i=0;i<nums1.length;i++){ 
 			max=0; 
 			flag=0;   
