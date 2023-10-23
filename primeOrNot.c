@@ -5,7 +5,7 @@ int main()
     int size;  
     
     char str[] = "Gaurav, 11Pandey... i1s go1od";
-    size  =strlen(str);
+    size  =strlen(str); 
     char str1[size];
     printf("input string : %s\t\n",str); 
 
