@@ -2,7 +2,7 @@
 #include<string.h>
 int main()  
 {     
-    int size; 
+    int size;  
     
     char str[] = "Gaurav, 11Pandey... i1s go1od";
     size  =strlen(str);
