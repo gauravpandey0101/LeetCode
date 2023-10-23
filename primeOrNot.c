@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 int main() 
-{   
+{    
     int size; 
     
     char str[] = "Gaurav, 11Pandey... i1s go1od";
