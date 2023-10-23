@@ -7,7 +7,7 @@ int main()
     char str[] = "Gaurav, 11Pandey... i1s go1od";
     size  =strlen(str);
     char str1[size];
-    printf("input string : %s\t\n",str);
+    printf("input string : %s\t\n",str); 
 
     int j=0;
     
