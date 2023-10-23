@@ -9,7 +9,7 @@ int main()
     char str1[size];
     printf("input string : %s\t\n",str); 
 
-    int j=0;
+    int j=0; 
     
     for(int i=0; i<str[i] !='\0'; i++)
     {
